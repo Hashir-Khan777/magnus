@@ -1,0 +1,97 @@
+.feature_section,
+.about_section,
+.services_section {
+  margin: 100px 0;
+}
+
+.feature_section_heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.feature_section_para {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.card {
+  width: 20rem;
+  padding: 40px 20px;
+  background-color: #c1272d;
+}
+
+.card > h3 {
+  margin: 10px 0;
+}
+
+.card > p {
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about_image,
+.about_content {
+  width: 49%;
+}
+
+.about_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_content {
+  margin-left: 10px;
+}
+
+.about_content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about_sub_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about_sub_content:nth-child(3) {
+  margin: 30px 0;
+}
+
+.about_sub_content_icon > svg {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #c1272d;
+}
+
+.about_sub_content_para > h3 {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.about_sub_content_para > p {
+  line-height: 1.5rem;
+  font-size: 17px;
+}

@@ -1,0 +1,188 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar_info {
+    justify-content: flex-start;
+  }
+  .nav_icon:nth-child(2) {
+    margin: 10px 0;
+  }
+  .hamburger {
+    display: block !important;
+  }
+  .nav_list {
+    display: block !important;
+    position: absolute;
+    top: 116px;
+    z-index: 99999;
+    height: 0%;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    transition: all 1s linear !important;
+  }
+  .nav_list li {
+    width: 100%;
+    border-bottom: 1px solid #0d1138;
+    padding: 10px;
+  }
+  .contact_us_link {
+    margin-top: 10px;
+  }
+  .nav_list li:last-child {
+    border-bottom: none;
+  }
+  .nav_list li a,
+  .nav_list li span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub_list_section {
+    width: 100% !important;
+    left: 0;
+  }
+  .open_sub_list:hover ~ .sub_list_section {
+    top: 60px;
+  }
+  .sub_list_section:hover {
+    top: 60px;
+  }
+  .about_us {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_us_heading {
+    margin-top: 20px;
+  }
+  .qoute {
+    right: 0;
+  }
+  .testimonials {
+    display: block;
+  }
+  .slide_caption h1 {
+    font-size: 35px;
+  }
+  .slide_caption p {
+    font-size: 16px;
+  }
+  .slide_caption {
+    padding-left: 40px;
+  }
+  .question_row {
+    flex-direction: column;
+    margin: 40px 0;
+  }
+  .our_mission,
+  .our_values,
+  .portfolio_row,
+  .contact_form_row {
+    flex-direction: column;
+  }
+  .contact_form_col {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 980px) {
+  .one_service_row {
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact_form {
+    display: block;
+  }
+  .blogs_row {
+    flex-direction: column;
+  }
+  .blogs_col:nth-child(2) {
+    margin: 20px 0;
+  }
+  .footer_row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .review_outer_slider {
+    width: 443px;
+  }
+  .review > p {
+    min-width: 438px;
+  }
+}
+
+@media (max-width: 470px) {
+  .review_outer_slider {
+    width: 343px;
+  }
+  .review > p {
+    min-width: 338.9px;
+  }
+  .testimonial_col > h1 {
+    font-size: 20px;
+  }
+  .our_web_services_col {
+    width: 100%;
+  }
+  .about_header_content h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 370px) {
+  .review_outer_slider {
+    width: 285px;
+  }
+  .review > p {
+    min-width: 280px;
+  }
+  .speciality p {
+    font-size: 14px;
+  }
+  .speciality svg {
+    width: 70px;
+  }
+  .slide_caption h1 {
+    font-size: 25px;
+  }
+  .slide_caption p {
+    font-size: 14px;
+  }
+  .qoute {
+    width: 100%;
+  }
+}

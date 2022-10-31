@@ -1,0 +1,127 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  transition: all 0.3s linear;
+}
+
+.slide_item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0s 0.6s ease-out;
+}
+
+.slide_item.active {
+  opacity: 1;
+  z-index: 1;
+  transition: opacity 0.6s ease-in;
+}
+
+.slide_item > img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+  transition: all 0.3s ease-in-out;
+}
+
+.slide_caption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding-left: 70px;
+}
+
+.slide_caption p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slider_controlls {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s linear;
+}
+
+.slider_controlls button {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 10px;
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s linear;
+  animation: zoomOut 0.3s linear;
+  z-index: 999;
+}
+
+.slider_controlls button:nth-child(2) {
+  right: 0;
+}
+
+.slider_icons {
+  font-size: 20px;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}
+
+.slider:hover .slider_controlls button {
+  opacity: 1;
+  transition: all 0.3s linear;
+  animation: zoomIn 0.3s linear;
+}
+
+.slide_caption h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  transition: all 0.3s linear;
+}
+
+.slide_caption p {
+  line-height: 32px;
+  margin-bottom: 20px;
+  transition: all 0.3s linear;
+}
+
+.slide_caption a button {
+  align-self: flex-start;
+  border: none;
+  background-color: #c1272d;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slide_caption button:hover {
+  background-color: #b4b4b4;
+  transition: all 0.3s ease;
+}
