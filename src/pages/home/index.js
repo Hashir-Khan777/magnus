@@ -1,6 +1,11 @@
 import "./css/index.css";
 import { Banner } from "../../components";
-import { FaBuilding, FaChartLine } from "react-icons/fa";
+import {
+  FaBuilding,
+  FaChartLine,
+  FaChartBar,
+  FaArrowRight,
+} from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -198,7 +203,7 @@ const Home = () => {
               </div>
               <div className="about_sub_content">
                 <div className="about_sub_content_icon">
-                  <FaBuilding />
+                  <FaChartBar />
                 </div>
                 <div className="about_sub_content_para">
                   <h3>Our Future Plan</h3>
@@ -215,6 +220,83 @@ const Home = () => {
       <section className="services_section">
         <div className="container">
           <h1 className="feature_section_heading">Our Services</h1>
+          <p className="feature_section_para">
+            Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua.
+          </p>
+          <div className="services">
+            <div className="service">
+              <FaBuilding />
+              <h2>Website development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, elit, a sed diam nonummy nibh
+                tincidunt consectetuer adipiscing.
+              </p>
+              <button className="read_more">
+                <span>Read More</span> <FaArrowRight />
+              </button>
+            </div>
+            <div className="service">
+              <FaBuilding />
+              <h2>Website development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, elit, a sed diam nonummy nibh
+                tincidunt consectetuer adipiscing.
+              </p>
+              <button className="read_more">
+                <span>Read More</span> <FaArrowRight />
+              </button>
+            </div>
+            <div className="service">
+              <FaBuilding />
+              <h2>Website development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, elit, a sed diam nonummy nibh
+                tincidunt consectetuer adipiscing.
+              </p>
+              <button className="read_more">
+                <span>Read More</span> <FaArrowRight />
+              </button>
+            </div>
+            <div className="service">
+              <FaBuilding />
+              <h2>Website development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, elit, a sed diam nonummy nibh
+                tincidunt consectetuer adipiscing.
+              </p>
+              <button className="read_more">
+                <span>Read More</span> <FaArrowRight />
+              </button>
+            </div>
+            <div className="service">
+              <FaBuilding />
+              <h2>Website development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, elit, a sed diam nonummy nibh
+                tincidunt consectetuer adipiscing.
+              </p>
+              <button className="read_more">
+                <span>Read More</span> <FaArrowRight />
+              </button>
+            </div>
+            <div className="service">
+              <FaBuilding />
+              <h2>Website development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, elit, a sed diam nonummy nibh
+                tincidunt consectetuer adipiscing.
+              </p>
+              <button className="read_more">
+                <span>Read More</span> <FaArrowRight />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="contact_section">
+        <div className="container">
+          <h1 className="feature_section_heading">Our Contact</h1>
           <p className="feature_section_para">
             Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua.

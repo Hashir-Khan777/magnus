@@ -1,6 +1,7 @@
 .feature_section,
 .about_section,
-.services_section {
+.services_section,
+.contact_section {
   margin: 100px 0;
 }
 
@@ -94,4 +95,82 @@
 .about_sub_content_para > p {
   line-height: 1.5rem;
   font-size: 17px;
+}
+
+.services {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service {
+  position: relative;
+  width: 22rem;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.13);
+  padding: 50px 20px;
+  margin: 10px 0;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.service > svg {
+  color: #c1272d;
+  font-size: 40px;
+  transition: all 0.4s ease-in-out;
+}
+
+.service > h2 {
+  margin-top: 20px;
+}
+
+.service > p {
+  margin: 20px 0;
+  line-height: 2rem;
+  letter-spacing: 0.03rem;
+  font-size: 18px;
+}
+
+.read_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background: none;
+  border: none;
+  font-size: 17px;
+  border: 1px solid #b4b4b4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.read_more > span {
+  margin-right: 3px;
+}
+
+.service::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #c1272d;
+  top: 0;
+  right: 99%;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+}
+
+.service:hover::before {
+  right: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.service:hover,
+.service:hover > svg,
+.service:hover > .read_more {
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
 }
