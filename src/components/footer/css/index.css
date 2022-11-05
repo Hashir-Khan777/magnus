@@ -16,6 +16,134 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: -1;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.footer_about_us_content {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_contact_content {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  height: 120px;
+}
+
+.footer_about_us_content_container {
+  width: 49%;
+}
+
+.footer_social_icon_container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer_social_icon_container a {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #c1272d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer_about_us_para {
+  font-size: 18px;
+  line-height: 1.8rem;
+  margin: 10px 0 30px 0;
+}
+
+.footer_web_links,
+.newsletter_container,
+.footer_contact_container {
+  width: 49%;
+}
+
+.footer_web_links h1,
+.footer_contact_container h1,
+.newsletter_container h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.footer_web_links ul li {
+  margin: 20px 0;
+}
+
+.footer_contact_container {
+  text-align: left;
+}
+
+.footer_web_links ul li a {
+  color: #ffffff;
+}
+
+.footer_phone_container {
+  margin: 20px 0;
+  font-size: 17px;
+}
+
+.newsletter_container p {
+  font-size: 18px;
+  line-height: 1.8rem;
+  margin: 30px 0;
+}
+
+.newsletter_container form input {
+  background: none;
+  border: 1px solid #b4b4b4;
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.newsletter_container button {
+  align-self: flex-start;
+  border: none;
+  background-color: #c1272d;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.newsletter_container button:hover {
+  background-color: #b4b4b4;
+  transition: all 0.3s ease;
+}
+
+.boder_bottom {
+  width: 80%;
+  height: 0.1px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.copyright_section {
+  color: #fff;
+  font-size: 20px;
 }
