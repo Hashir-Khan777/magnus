@@ -113,6 +113,18 @@
   .contact_form_col {
     margin: 10px;
   }
+  .footer_content {
+    flex-direction: column;
+  }
+  .footer_content > div {
+    width: 100%;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about > div {
+    width: 100%;
+  }
 }
 
 @media (max-width: 980px) {
@@ -142,6 +154,12 @@
   }
   .review > p {
     min-width: 438px;
+  }
+  .footer_content > div {
+    flex-direction: column;
+  }
+  .footer_content > div > div {
+    width: 100%;
   }
 }
 
