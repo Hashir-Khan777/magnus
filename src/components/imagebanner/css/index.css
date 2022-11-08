@@ -1,0 +1,22 @@
+.header_image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 100px;
+}
+
+.header_image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.about_header_content h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  color: #ffffff;
+}
