@@ -1,4 +1,5 @@
-import React from "react";
+import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import "./css/index.css";
 
 const Contact = () => {
   return (
@@ -10,15 +11,8 @@ const Contact = () => {
             Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua.
           </p>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              marginTop: 40,
-            }}
-          >
-            <section style={{ width: "49%" }}>
-              {/* <div className="container"> */}
+          <div className="contact_row">
+            <section className="contact_form_col">
               <div className="contact">
                 <form className="contact_form">
                   <div className="name_email_conainer">
@@ -42,10 +36,22 @@ const Contact = () => {
                   <button className="form_button">Submit Now</button>
                 </form>
               </div>
-              {/* </div> */}
             </section>
-            <section style={{ width: "49%" }}>
-              <h1>abc</h1>
+            <section className="contact_about_col">
+              <div className="contact_card">
+                <FaPhoneAlt />
+                <div>
+                  <h2>Call Us</h2>
+                  <p>+92 326 8927308</p>
+                </div>
+              </div>
+              <div className="contact_card">
+                <FaEnvelope />
+                <div>
+                  <h2>Message Us</h2>
+                  <p>magnusmediahouse@gmail.com</p>
+                </div>
+              </div>
             </section>
           </div>
         </div>

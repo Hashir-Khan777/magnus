@@ -40,11 +40,6 @@
   padding-left: 70px;
 }
 
-.slide_caption p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 .slider_controlls {
   position: absolute;
   bottom: 50%;
@@ -105,6 +100,8 @@
 .slide_caption p {
   line-height: 32px;
   margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
   transition: all 0.3s linear;
 }
 
