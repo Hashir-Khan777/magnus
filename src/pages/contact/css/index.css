@@ -14,7 +14,7 @@
 }
 
 .contact_card > svg {
-  color: #c1272d;
+  color: #510400;
   font-size: 30px;
   margin-right: 15px;
 }
@@ -35,7 +35,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #c1272d;
+  background-color: #510400;
   top: 0;
   right: 99%;
   z-index: -1;

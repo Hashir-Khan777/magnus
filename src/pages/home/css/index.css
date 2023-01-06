@@ -32,17 +32,33 @@
 .card {
   width: 20rem;
   padding: 40px 20px;
-  background-color: #c1272d;
+  background-color: #510400;
   margin-top: 10px;
+  border-radius: 40px;
+  transition: all 0.3s linear;
+}
+
+.card:hover {
+  background-color: #e7e7e7;
+  color: #510400;
+  transition: all 0.3s linear;
+}
+
+.card:hover > svg {
+  fill: #510400;
+  transition: all 0.3s linear;
 }
 
 .card > h3 {
   margin: 10px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .card > p {
-  font-size: 18px;
-  line-height: 2rem;
+  font-size: 14px;
+  line-height: 1.5rem;
+  font-weight: normal;
 }
 
 .about {
@@ -60,14 +76,32 @@
 .about_image img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+}
+
+.about_contant_heading {
+  position: relative;
+}
+
+.about_contant_heading::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  border-radius: 50px;
+  bottom: -7px;
+  left: 0;
+  background-color: #510400;
 }
 
 .about_content {
-  margin-left: 10px;
+  margin-left: 19px;
 }
 
 .about_content h1 {
   font-size: 30px;
+  text-transform: uppercase;
+  color: #510400;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -85,17 +119,18 @@
 .about_sub_content_icon > svg {
   font-size: 30px;
   margin-right: 10px;
-  color: #c1272d;
+  color: #510400;
 }
 
 .about_sub_content_para > h3 {
-  margin-bottom: 6px;
   font-weight: 600;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .about_sub_content_para > p {
-  line-height: 1.5rem;
-  font-size: 17px;
+  line-height: 1.1rem;
+  font-size: 13px;
 }
 
 .services {
@@ -117,7 +152,7 @@
 }
 
 .service > svg {
-  color: #c1272d;
+  color: #510400;
   font-size: 40px;
   transition: all 0.4s ease-in-out;
 }
@@ -157,7 +192,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #c1272d;
+  background-color: #510400;
   top: 0;
   right: 99%;
   z-index: -1;
@@ -195,7 +230,7 @@
   border-radius: 5px;
   border: none;
   resize: none;
-  background-color: #c1272d;
+  background-color: #510400;
   color: #ffffff;
 }
 
@@ -206,7 +241,7 @@
 
 .form_button {
   width: 100%;
-  background-color: #c1272d;
+  background-color: #510400;
   border: none;
   color: #ffffff;
   border-radius: 5px;

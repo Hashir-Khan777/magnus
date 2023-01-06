@@ -70,12 +70,12 @@ const Header = () => {
                       Mobile app development
                     </Link>
                     <Link to="/services/searchengineoptimization">
-                      Search engine opimization (SEO)
+                      Printing
                     </Link>
                     <Link to="/services/graphicdesigning">
                       Graphic designing
                     </Link>
-                    <Link to="/services/brandmanagement">Brand management</Link>
+                    <Link to="/services/brandmanagement">Production</Link>
                     <Link to="/services/digitalmarketing">
                       Digital marketing
                     </Link>

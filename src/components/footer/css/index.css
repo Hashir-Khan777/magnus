@@ -55,7 +55,7 @@
 .footer_social_icon_container a {
   color: #ffffff;
   font-size: 20px;
-  background-color: #c1272d;
+  background-color: #510400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +118,7 @@
 .newsletter_container button {
   align-self: flex-start;
   border: none;
-  background-color: #c1272d;
+  background-color: #510400;
   color: #fff;
   padding: 15px 30px;
   font-size: 14px;

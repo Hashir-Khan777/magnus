@@ -176,7 +176,7 @@ const Home = () => {
               <img src="./images/about.jpg" alt="" />
             </div>
             <div className="about_content">
-              <h1>Why We Are Different?</h1>
+              <h1 className="about_contant_heading">Why We Are Different?</h1>
               <div className="about_sub_content">
                 <div className="about_sub_content_icon">
                   <FaBuilding />
