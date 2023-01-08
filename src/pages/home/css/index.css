@@ -31,6 +31,7 @@
 
 .card {
   width: 20rem;
+  height: 380px;
   padding: 40px 20px;
   background-color: #510400;
   margin-top: 10px;
@@ -152,9 +153,10 @@
 }
 
 .service > svg {
-  color: #510400;
-  font-size: 40px;
-  transition: all 0.4s ease-in-out;
+  fill: #510400;
+  width: 90px;
+  height: 90px;
+  transition: all 0.1s ease-in-out;
 }
 
 .service > h2 {
@@ -207,8 +209,8 @@
 .service:hover,
 .service:hover > svg,
 .service:hover > .read_more {
+  fill: #ffffff;
   color: #ffffff;
-  transition: all 0.4s ease-in-out;
 }
 
 .name_email_conainer {

@@ -33,7 +33,7 @@
 }
 
 .footer_contact_content {
-  width: 49%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
 }
@@ -54,7 +54,7 @@
 
 .footer_social_icon_container a {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 14px;
   background-color: #510400;
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@
 }
 
 .footer_about_us_para {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.8rem;
   margin: 10px 0 30px 0;
 }
@@ -80,11 +80,12 @@
 .footer_contact_container h1,
 .newsletter_container h1 {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .footer_web_links ul li {
   margin: 20px 0;
+  font-size: 14px;
 }
 
 .footer_contact_container {
@@ -97,13 +98,13 @@
 
 .footer_phone_container {
   margin: 20px 0;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .newsletter_container p {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.8rem;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .newsletter_container form input {
@@ -111,7 +112,7 @@
   border: 1px solid #b4b4b4;
   padding: 15px;
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
   color: #ffffff;
 }
 
@@ -145,5 +146,5 @@
 
 .copyright_section {
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
 }

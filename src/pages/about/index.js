@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBuilding, FaChartBar, FaChartLine } from "react-icons/fa";
-import { ImageBanner } from "../../components";
+import { Contact, ImageBanner } from "../../components";
 
 const About = () => {
   return (
@@ -57,34 +57,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="contact_section">
-        <div className="container">
-          <h1 className="feature_section_heading">Our Contact</h1>
-          <p className="feature_section_para">
-            Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut <br /> labore et dolore magna aliqua.
-          </p>
-          <div className="contact">
-            <form className="contact_form">
-              <div className="name_email_conainer">
-                <div>
-                  <input required type="text" placeholder="Name" />
-                </div>
-                <div>
-                  <input required type="email" placeholder="Email" />
-                </div>
-              </div>
-              <div>
-                <input required type="number" placeholder="Phone" />
-              </div>
-              <div>
-                <textarea cols="30" rows="10" placeholder="Message"></textarea>
-              </div>
-              <button className="form_button">Submit Now</button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <Contact />
     </div>
   );
 };

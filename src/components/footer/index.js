@@ -3,8 +3,8 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
-  FaLinkedinIn,
   FaPhoneAlt,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./css/index.css";
@@ -27,14 +27,23 @@ const Footer = () => {
               </p>
               <div className="footer_social_icons">
                 <div className="footer_social_icon_container">
-                  <a href="">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100088833297820&mibextid=ZbWKwL"
+                    target="_facebook"
+                  >
                     <FaFacebookF />
                   </a>
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/magnus.mediahouse/?igshid=OGQ2MjdiOTE%3D"
+                    target="_instagram"
+                  >
                     <FaInstagram />
                   </a>
-                  <a href="">
-                    <FaLinkedinIn />
+                  <a
+                    href="https://api.whatsapp.com/send?phone=923268927308"
+                    target="_whatsapp"
+                  >
+                    <FaWhatsapp />
                   </a>
                 </div>
               </div>

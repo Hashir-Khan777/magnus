@@ -41,7 +41,7 @@ const Banner = () => {
           <div className="slide_caption">
             <div className="container">
               <h1>
-                Generate Engaging <br /> Content Through.
+                Making The Most <br /> Of The Digital Era
               </h1>
               <p>
                 Porem ipsum dolor sit amet, consectetur dipisicing elit, <br />
@@ -60,7 +60,7 @@ const Banner = () => {
           <div className="slide_caption">
             <div className="container">
               <h1>
-                Make Your Business <br /> Perfect WordPress Site
+                Making The World <br /> Talk About You
               </h1>
               <p>
                 Porem ipsum dolor sit amet, consectetur dipisicing elit, <br />

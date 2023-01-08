@@ -2,8 +2,8 @@ import {
   FaChevronDown,
   FaFacebookF,
   FaInstagram,
-  FaLinkedinIn,
   FaPhoneAlt,
+  FaWhatsapp,
 } from "react-icons/fa";
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -30,14 +30,23 @@ const Header = () => {
               <span>+92 326 8927308</span>
             </div>
             <div className="social_media_container">
-              <a href="">
+              <a
+                href="https://www.facebook.com/profile.php?id=100088833297820&mibextid=ZbWKwL"
+                target="_facebook"
+              >
                 <FaFacebookF />
               </a>
-              <a href="">
+              <a
+                href="https://www.instagram.com/magnus.mediahouse/?igshid=OGQ2MjdiOTE%3D"
+                target="_instagram"
+              >
                 <FaInstagram />
               </a>
-              <a href="">
-                <FaLinkedinIn />
+              <a
+                href="https://api.whatsapp.com/send?phone=923268927308"
+                target="_whatsapp"
+              >
+                <FaWhatsapp />
               </a>
             </div>
           </div>
@@ -63,21 +72,21 @@ const Header = () => {
                     Services <FaChevronDown />
                   </span>
                   <div className="sub_list_section">
+                    <Link to="/services/digitalmarketing">
+                      Digital marketing
+                    </Link>
                     <Link to="/services/websitedevelopment">
                       Website development
-                    </Link>
-                    <Link to="/services/mobileappdevelopment">
-                      Mobile app development
-                    </Link>
-                    <Link to="/services/searchengineoptimization">
-                      Printing
                     </Link>
                     <Link to="/services/graphicdesigning">
                       Graphic designing
                     </Link>
                     <Link to="/services/brandmanagement">Production</Link>
-                    <Link to="/services/digitalmarketing">
-                      Digital marketing
+                    <Link to="/services/mobileappdevelopment">
+                      Mobile app development
+                    </Link>
+                    <Link to="/services/searchengineoptimization">
+                      Printing
                     </Link>
                   </div>
                 </li>
