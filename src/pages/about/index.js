@@ -16,7 +16,7 @@ const About = () => {
               <img src="./images/about.jpg" alt="" />
             </div>
             <div className="about_content">
-              <h1>Why We Are Different?</h1>
+              <h1 className="about_contant_heading">Why We Are Different?</h1>
               <div className="about_sub_content">
                 <div className="about_sub_content_icon">
                   <FaBuilding />
@@ -24,8 +24,8 @@ const About = () => {
                 <div className="about_sub_content_para">
                   <h3>Our Company</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum is simply.
+                    We are a digital media house thinks Like A Machine Brain. To
+                    Grow Your Business. We aim to grow your business.
                   </p>
                 </div>
               </div>
@@ -36,8 +36,8 @@ const About = () => {
                 <div className="about_sub_content_para">
                   <h3>Our Success Mission</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum is simply.
+                    We aim to make business easy for you and to make your
+                    business more efficient and profitable.
                   </p>
                 </div>
               </div>
@@ -48,8 +48,8 @@ const About = () => {
                 <div className="about_sub_content_para">
                   <h3>Our Future Plan</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum is simply.
+                    Our future plan is to bring your business on the second step
+                    of success and make people talk about your business.
                   </p>
                 </div>
               </div>

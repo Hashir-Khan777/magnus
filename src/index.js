@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./media.css";
+import "./config/database";
 import reportWebVitals from "./reportWebVitals";
 import AppRouter from "./config/router";
 

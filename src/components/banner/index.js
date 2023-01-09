@@ -44,8 +44,8 @@ const Banner = () => {
                 Making The Most <br /> Of The Digital Era
               </h1>
               <p>
-                Porem ipsum dolor sit amet, consectetur dipisicing elit, <br />
-                sed do eiusmod tempoi cidi ut labore et dolore magna aliqua.
+                The digital era has brought about many changes in how we <br />
+                communicate, access information, and do business.
               </p>
               <a href="#contactus">
                 <button>get a quote</button>
@@ -63,8 +63,9 @@ const Banner = () => {
                 Making The World <br /> Talk About You
               </h1>
               <p>
-                Porem ipsum dolor sit amet, consectetur dipisicing elit, <br />
-                sed do eiusmod tempoi cidi ut labore et dolore magna aliqua.
+                Engage with your audience on social media. Share updates about
+                <br />
+                your business, respond to comments and messages.
               </p>
               <a href="#contactus">
                 <button>get a quote</button>

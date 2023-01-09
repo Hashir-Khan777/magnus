@@ -1,4 +1,5 @@
-import React from "react";
+import { addDoc, collection, getFirestore } from "firebase/firestore";
+import React, { useState } from "react";
 import {
   FaEnvelope,
   FaFacebookF,
@@ -10,6 +11,19 @@ import { Link } from "react-router-dom";
 import "./css/index.css";
 
 const Footer = () => {
+  const [form, setForm] = useState({ email: "" });
+
+  const submit = async (e) => {
+    e.preventDefault();
+    if (form.email !== "") {
+      await addDoc(collection(getFirestore(), "newsLetter"), {
+        ...form,
+        createdAt: new Date(),
+      });
+      setForm({ email: "" });
+    }
+  };
+
   return (
     <div className="footer">
       <div className="container">
@@ -93,8 +107,14 @@ const Footer = () => {
             <div className="newsletter_container">
               <h1>Newsletter</h1>
               <p>Subscribe to Our Newsletter for Daily News and Updates</p>
-              <form>
-                <input type="email" required placeholder="Email Address" />
+              <form onSubmit={submit}>
+                <input
+                  type="email"
+                  required
+                  placeholder="Email Address"
+                  value={form.email}
+                  onChange={(e) => setForm({ ...form, email: e.target.value })}
+                />
                 <button type="submit">Submit</button>
               </form>
             </div>
