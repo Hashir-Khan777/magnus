@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Footer, Header } from "../components";
-import { About, Contact, Home, WebsiteDevelopment } from "../pages";
+import { About, Contact, Home, Portfolio, WebsiteDevelopment } from "../pages";
 
 const AppRouter = () => {
   return (
@@ -11,6 +11,7 @@ const AppRouter = () => {
         <Route caseSensitive path="/" element={<Home />} />
         <Route caseSensitive path="/about" element={<About />} />
         <Route caseSensitive path="/contactus" element={<Contact />} />
+        <Route caseSensitive path="/portfolio" element={<Portfolio />} />
         <Route
           caseSensitive
           path="/services/websitedevelopment"

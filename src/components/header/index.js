@@ -68,6 +68,9 @@ const Header = () => {
                   <Link to="/about">About us</Link>
                 </li>
                 <li className="nav_links">
+                  <Link to="/portfolio">Portfolio</Link>
+                </li>
+                <li className="nav_links">
                   <span className="open_sub_list">
                     Services <FaChevronDown />
                   </span>

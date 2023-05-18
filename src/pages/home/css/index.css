@@ -154,8 +154,6 @@
 
 .service > svg {
   fill: #510400;
-  width: 90px;
-  height: 90px;
   transition: all 0.1s ease-in-out;
 }
 
@@ -261,4 +259,11 @@ input::-webkit-inner-spin-button {
 
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
